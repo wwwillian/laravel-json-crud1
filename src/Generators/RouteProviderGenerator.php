@@ -1,9 +1,9 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Generators;
+namespace Wwwillian\JsonCrud\Generators;
 
-use ConnectMalves\JsonCrud\Generators\BaseGenerator;
-use ConnectMalves\JsonCrud\Supports\Stub;
+use Wwwillian\JsonCrud\Generators\BaseGenerator;
+use Wwwillian\JsonCrud\Supports\Stub;
 
 class RouteProviderGenerator extends BaseGenerator
 {

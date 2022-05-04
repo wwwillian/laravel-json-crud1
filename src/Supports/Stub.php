@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Supports;
+namespace Wwwillian\JsonCrud\Supports;
 
 class Stub
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Controllers;
+namespace Wwwillian\JsonCrud\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as Controller;

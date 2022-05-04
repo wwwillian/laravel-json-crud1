@@ -1,8 +1,8 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Traits;
+namespace Wwwillian\JsonCrud\Traits;
 
-use ConnectMalves\JsonCrud\Traits\ModuleCommand;
+use Wwwillian\JsonCrud\Traits\ModuleCommand;
 
 trait JsonCommand
 {

@@ -10,7 +10,7 @@
  */
 namespace {{namespace}};
 
-use ConnectMalves\JsonCrud\Controllers\Auth\BaseVerificationController as Controller;
+use Wwwillian\JsonCrud\Controllers\Auth\BaseVerificationController as Controller;
 use Illuminate\Foundation\Auth\VerifiesEmails;
 
 /**

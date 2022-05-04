@@ -10,7 +10,7 @@
  */
 namespace {{namespace}};
 
-use ConnectMalves\JsonCrud\Models\Authenticatable;
+use Wwwillian\JsonCrud\Models\Authenticatable;
 
 /**
  * Model class for {{studlyModuleName}} Module

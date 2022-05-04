@@ -1,8 +1,8 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Models;
+namespace Wwwillian\JsonCrud\Models;
 
-use ConnectMalves\JsonCrud\Models\BaseModel;
+use Wwwillian\JsonCrud\Models\BaseModel;
 
 class Model extends BaseModel
 {   

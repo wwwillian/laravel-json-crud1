@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Generators;
+namespace Wwwillian\JsonCrud\Generators;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Filesystem\Filesystem;

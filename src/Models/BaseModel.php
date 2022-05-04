@@ -1,12 +1,12 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Models;
+namespace Wwwillian\JsonCrud\Models;
 
-use ConnectMalves\JsonCrud\Traits\JsonEloquentConfigurator;
-use ConnectMalves\JsonCrud\Events\BaseModelSaving;
-use ConnectMalves\JsonCrud\Events\BaseModelFilling;
-use ConnectMalves\JsonCrud\Traits\JsonParser;
-use ConnectMalves\JsonCrud\Traits\ToArrayValues;
+use Wwwillian\JsonCrud\Traits\JsonEloquentConfigurator;
+use Wwwillian\JsonCrud\Events\BaseModelSaving;
+use Wwwillian\JsonCrud\Events\BaseModelFilling;
+use Wwwillian\JsonCrud\Traits\JsonParser;
+use Wwwillian\JsonCrud\Traits\ToArrayValues;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Arr;

@@ -1,10 +1,10 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Services;
+namespace Wwwillian\JsonCrud\Services;
 
-use ConnectMalves\JsonCrud\Services\BaseService;
+use Wwwillian\JsonCrud\Services\BaseService;
 
 class Service extends BaseService 
 {
-    protected $repositoryClass = ConnectMalves\JsonCrud\Repositories\Eloquent\Repository::class;
+    protected $repositoryClass = Wwwillian\JsonCrud\Repositories\Eloquent\Repository::class;
 }

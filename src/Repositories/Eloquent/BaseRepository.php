@@ -1,9 +1,9 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Repositories\Eloquent;
+namespace Wwwillian\JsonCrud\Repositories\Eloquent;
 
-use ConnectMalves\JsonCrud\Repositories\Eloquent\AbstractRepository;
-use ConnectMalves\JsonCrud\Repositories\Contracts\IJsonRepository;
+use Wwwillian\JsonCrud\Repositories\Eloquent\AbstractRepository;
+use Wwwillian\JsonCrud\Repositories\Contracts\IJsonRepository;
 
 class BaseRepository extends AbstractRepository implements
 IJsonRepository

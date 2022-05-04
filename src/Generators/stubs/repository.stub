@@ -10,7 +10,7 @@
  */
 namespace {{namespace}};
 
-use ConnectMalves\JsonCrud\Repositories\Eloquent\BaseRepository as Repository;
+use Wwwillian\JsonCrud\Repositories\Eloquent\BaseRepository as Repository;
 
 /**
  * Repository class for {{studlyModuleName}} Module

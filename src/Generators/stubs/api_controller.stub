@@ -10,7 +10,7 @@
  */
 namespace {{namespace}};
 
-use ConnectMalves\JsonCrud\Controllers\BaseApiController as Controller;
+use Wwwillian\JsonCrud\Controllers\BaseApiController as Controller;
 
 /**
  * Api controller class for {{studlyModuleName}} Module

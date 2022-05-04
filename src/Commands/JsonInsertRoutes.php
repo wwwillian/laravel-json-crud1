@@ -1,11 +1,11 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Commands;
+namespace Wwwillian\JsonCrud\Commands;
 
-use ConnectMalves\JsonCrud\Traits\JsonCommand;
+use Wwwillian\JsonCrud\Traits\JsonCommand;
 use Illuminate\Console\Command;
-use ConnectMalves\JsonCrud\Generators\InsertApiRouteGenerator;
-use ConnectMalves\JsonCrud\Generators\InsertWebRouteGenerator;
+use Wwwillian\JsonCrud\Generators\InsertApiRouteGenerator;
+use Wwwillian\JsonCrud\Generators\InsertWebRouteGenerator;
 
 class JsonInsertRoutes extends Command
 {

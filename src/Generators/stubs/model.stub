@@ -10,7 +10,7 @@
  */
 namespace {{namespace}};
 
-use ConnectMalves\JsonCrud\Models\BaseModel as Model;
+use Wwwillian\JsonCrud\Models\BaseModel as Model;
 
 /**
  * Model class for {{studlyModuleName}} Module

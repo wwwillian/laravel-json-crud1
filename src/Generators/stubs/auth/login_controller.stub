@@ -10,7 +10,7 @@
  */
 namespace {{namespace}};
 
-use ConnectMalves\JsonCrud\Controllers\Auth\BaseLoginController as Controller;
+use Wwwillian\JsonCrud\Controllers\Auth\BaseLoginController as Controller;
 
 /**
  * Login controller class for {{studlyModuleName}} Module

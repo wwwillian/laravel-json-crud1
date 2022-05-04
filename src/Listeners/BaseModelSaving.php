@@ -1,15 +1,15 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Listeners;
+namespace Wwwillian\JsonCrud\Listeners;
 
-use ConnectMalves\JsonCrud\Events\BaseModelSaving as BaseModelSavingEvent;
+use Wwwillian\JsonCrud\Events\BaseModelSaving as BaseModelSavingEvent;
 
 class BaseModelSaving
 {
     /**
      * Handle the event.
      *
-     * @param  ConnectMalves\JsonCrud\Events\ModelSavingEvent $event
+     * @param  Wwwillian\JsonCrud\Events\ModelSavingEvent $event
      * @return mixed
      */
     public function handle(BaseModelSavingEvent $event)

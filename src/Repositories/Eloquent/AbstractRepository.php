@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Repositories\Eloquent;
+namespace Wwwillian\JsonCrud\Repositories\Eloquent;
 
 abstract class AbstractRepository
 {

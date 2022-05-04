@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Traits;
+namespace Wwwillian\JsonCrud\Traits;
 
 use App;
 use Webmozart\Assert\Assert;

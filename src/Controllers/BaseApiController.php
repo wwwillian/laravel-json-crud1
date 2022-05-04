@@ -1,9 +1,9 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Controllers;
+namespace Wwwillian\JsonCrud\Controllers;
 
 use Illuminate\Http\Request;
-use ConnectMalves\JsonCrud\Controllers\BaseController;
+use Wwwillian\JsonCrud\Controllers\BaseController;
 
 class BaseApiController extends BaseController
 {

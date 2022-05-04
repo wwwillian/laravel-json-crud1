@@ -1,8 +1,8 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Services;
+namespace Wwwillian\JsonCrud\Services;
 
-use ConnectMalves\JsonCrud\Services\Contracts\IService;
+use Wwwillian\JsonCrud\Services\Contracts\IService;
 use Illuminate\Http\Request;
 use Rees\Sanitizer\Sanitizer;
 use Validator;

@@ -1,11 +1,11 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Commands;
+namespace Wwwillian\JsonCrud\Commands;
 
 use Illuminate\Console\Command;
-use ConnectMalves\JsonCrud\Traits\JsonCommand;
-use ConnectMalves\JsonCrud\Generators\ApiControllerGenerator;
-use ConnectMalves\JsonCrud\Generators\WebControllerGenerator;
+use Wwwillian\JsonCrud\Traits\JsonCommand;
+use Wwwillian\JsonCrud\Generators\ApiControllerGenerator;
+use Wwwillian\JsonCrud\Generators\WebControllerGenerator;
 
 class JsonMakeController extends Command
 {

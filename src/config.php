@@ -20,7 +20,7 @@ return [
 
     'paths'     => [
         'modules'    => 'modules',
-        'stubs'      => 'vendor/connectmalves/laravel-json-crud/src/generators/stubs',
+        'stubs'      => 'vendor/wwwillian/laravel-json-crud/src/generators/stubs',
         'generators' => [
             'authcontrollers' => 'Controllers/Web/Auth',
             'webcontrollers'  => 'Controllers/Web',

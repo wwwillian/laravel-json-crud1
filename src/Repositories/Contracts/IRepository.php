@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Repositories\Contracts;
+namespace Wwwillian\JsonCrud\Repositories\Contracts;
 
 interface IRepository
 {

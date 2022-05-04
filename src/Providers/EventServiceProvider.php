@@ -1,10 +1,10 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Providers;
+namespace Wwwillian\JsonCrud\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use ConnectMalves\JsonCrud\Events\BaseModelSaving as Event;
-use ConnectMalves\JsonCrud\Listeners\BaseModelSaving as Listener;
+use Wwwillian\JsonCrud\Events\BaseModelSaving as Event;
+use Wwwillian\JsonCrud\Listeners\BaseModelSaving as Listener;
 class EventServiceProvider extends ServiceProvider
 {
     /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Controllers\Auth;
+namespace Wwwillian\JsonCrud\Controllers\Auth;
 
-use ConnectMalves\JsonCrud\Controllers\BaseWebController as Controller;
+use Wwwillian\JsonCrud\Controllers\BaseWebController as Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Auth;

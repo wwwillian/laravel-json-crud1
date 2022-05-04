@@ -1,8 +1,8 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Repositories;
+namespace Wwwillian\JsonCrud\Repositories;
 
-use ConnectMalves\JsonCrud\Repositories\Eloquent\BaseRepository;
+use Wwwillian\JsonCrud\Repositories\Eloquent\BaseRepository;
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider

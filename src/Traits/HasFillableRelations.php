@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Traits;
+namespace Wwwillian\JsonCrud\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;

@@ -1,21 +1,21 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Commands;
+namespace Wwwillian\JsonCrud\Commands;
 
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Support\ServiceProvider;
 
-use ConnectMalves\JsonCrud\Commands\JsonCrud;
-use ConnectMalves\JsonCrud\Commands\JsonMakeModule;
-use ConnectMalves\JsonCrud\Commands\JsonInsertRoutes;
-use ConnectMalves\JsonCrud\Commands\JsonMakeController;
-use ConnectMalves\JsonCrud\Commands\JsonMakeJsonFile;
-use ConnectMalves\JsonCrud\Commands\JsonMakeModel;
-use ConnectMalves\JsonCrud\Commands\JsonMakeRepository;
-use ConnectMalves\JsonCrud\Commands\JsonMakeService;
-use ConnectMalves\JsonCrud\Commands\JsonAuth;
-use ConnectMalves\JsonCrud\Commands\JsonRouteProvider;
-use ConnectMalves\JsonCrud\Generators\RouteProviderGenerator;
+use Wwwillian\JsonCrud\Commands\JsonCrud;
+use Wwwillian\JsonCrud\Commands\JsonMakeModule;
+use Wwwillian\JsonCrud\Commands\JsonInsertRoutes;
+use Wwwillian\JsonCrud\Commands\JsonMakeController;
+use Wwwillian\JsonCrud\Commands\JsonMakeJsonFile;
+use Wwwillian\JsonCrud\Commands\JsonMakeModel;
+use Wwwillian\JsonCrud\Commands\JsonMakeRepository;
+use Wwwillian\JsonCrud\Commands\JsonMakeService;
+use Wwwillian\JsonCrud\Commands\JsonAuth;
+use Wwwillian\JsonCrud\Commands\JsonRouteProvider;
+use Wwwillian\JsonCrud\Generators\RouteProviderGenerator;
 
 
 class CommandsServiceProvider extends ServiceProvider

@@ -1,9 +1,9 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Generators;
+namespace Wwwillian\JsonCrud\Generators;
 
-use ConnectMalves\JsonCrud\Generators\ApiControllerGenerator;
-use ConnectMalves\JsonCrud\Generators\WebControllerGenerator;
+use Wwwillian\JsonCrud\Generators\ApiControllerGenerator;
+use Wwwillian\JsonCrud\Generators\WebControllerGenerator;
 
 class JsonCrudGenerator
 {

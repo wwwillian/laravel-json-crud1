@@ -1,8 +1,8 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Events;
+namespace Wwwillian\JsonCrud\Events;
 
-use ConnectMalves\JsonCrud\Models\BaseModel;
+use Wwwillian\JsonCrud\Models\BaseModel;
 use Illuminate\Queue\SerializesModels;
 
 class BaseModelSaving
@@ -14,7 +14,7 @@ class BaseModelSaving
     /**
      * Create a new event instance.
      *
-     * @param ConnectMalves\JsonCrud\Models\BaseModel $model
+     * @param Wwwillian\JsonCrud\Models\BaseModel $model
      */
     public function __construct(BaseModel $model)
     {

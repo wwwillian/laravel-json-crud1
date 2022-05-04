@@ -1,10 +1,10 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Commands;
+namespace Wwwillian\JsonCrud\Commands;
 
-use ConnectMalves\JsonCrud\Traits\JsonCommand;
+use Wwwillian\JsonCrud\Traits\JsonCommand;
 use Illuminate\Console\Command;
-use ConnectMalves\JsonCrud\Generators\JsonCrudGenerator;
+use Wwwillian\JsonCrud\Generators\JsonCrudGenerator;
 
 class JsonCrud extends Command
 {

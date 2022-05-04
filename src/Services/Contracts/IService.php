@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Services\Contracts;
+namespace Wwwillian\JsonCrud\Services\Contracts;
 
 use Illuminate\Http\Request;
 

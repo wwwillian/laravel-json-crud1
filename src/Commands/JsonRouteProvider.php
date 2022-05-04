@@ -1,9 +1,9 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Commands;
+namespace Wwwillian\JsonCrud\Commands;
 
 use Illuminate\Console\Command;
-use ConnectMalves\JsonCrud\Generators\RouteProviderGenerator;
+use Wwwillian\JsonCrud\Generators\RouteProviderGenerator;
 
 class JsonRouteProvider extends Command
 {

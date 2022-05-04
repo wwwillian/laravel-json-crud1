@@ -10,7 +10,7 @@
  */
 namespace {{namespace}};
 
-use ConnectMalves\JsonCrud\Services\BaseService as Service;
+use Wwwillian\JsonCrud\Services\BaseService as Service;
 
 /**
  * Service class for {{studlyModuleName}} Module

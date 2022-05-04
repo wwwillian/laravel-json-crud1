@@ -1,10 +1,10 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Commands;
+namespace Wwwillian\JsonCrud\Commands;
 
-use ConnectMalves\JsonCrud\Generators\ComposerGenerator;
-use ConnectMalves\JsonCrud\Generators\RouteProviderGenerator;
-use ConnectMalves\JsonCrud\Traits\JsonCommand;
+use Wwwillian\JsonCrud\Generators\ComposerGenerator;
+use Wwwillian\JsonCrud\Generators\RouteProviderGenerator;
+use Wwwillian\JsonCrud\Traits\JsonCommand;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 

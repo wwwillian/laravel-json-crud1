@@ -1,9 +1,9 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Generators;
+namespace Wwwillian\JsonCrud\Generators;
 
-use ConnectMalves\JsonCrud\Generators\BaseGenerator;
-use ConnectMalves\JsonCrud\Supports\Stub;
+use Wwwillian\JsonCrud\Generators\BaseGenerator;
+use Wwwillian\JsonCrud\Supports\Stub;
 
 class ComposerGenerator extends BaseGenerator
 {
@@ -24,7 +24,7 @@ class ComposerGenerator extends BaseGenerator
             'moduleNamespaceBackslash' => str_replace('/', "\\\\", $this->getModuleNamespace()),
             'authorEmail'              => config('jsoncrud.author.email', 'connect.malves@gmail.com'),
             'authorName'               => config('jsoncrud.author.name', 'Matheus Alves'),
-            'authorUser'               => config('jsoncrud.author.user', 'connectmalves'),
+            'authorUser'               => config('jsoncrud.author.user', 'wwwillian'),
             'authorRole'               => config('jsoncrud.author.role', 'Developer'),
             'projectName'              => config('jsoncrud.project.name', 'Laravel Json Crud')
         ]))->render();

@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Traits;
+namespace Wwwillian\JsonCrud\Traits;
 
 use Illuminate\Auth\Notifications\ResetPassword as ResetPasswordNotification;
 

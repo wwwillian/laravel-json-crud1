@@ -1,10 +1,10 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Commands;
+namespace Wwwillian\JsonCrud\Commands;
 
 use Illuminate\Console\Command;
-use ConnectMalves\JsonCrud\Traits\JsonCommand;
-use ConnectMalves\JsonCrud\Generators\ServiceGenerator;
+use Wwwillian\JsonCrud\Traits\JsonCommand;
+use Wwwillian\JsonCrud\Generators\ServiceGenerator;
 
 class JsonMakeService extends Command
 {

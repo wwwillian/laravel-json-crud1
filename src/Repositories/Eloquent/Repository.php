@@ -1,10 +1,10 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Repositories\Eloquent;
+namespace Wwwillian\JsonCrud\Repositories\Eloquent;
 
-use ConnectMalves\JsonCrud\Repositories\Eloquent\BaseRepository;
+use Wwwillian\JsonCrud\Repositories\Eloquent\BaseRepository;
 
 class Repository extends BaseRepository
 {
-    protected $modelClass = ConnectMalves\JsonCrud\Models\Model::class;
+    protected $modelClass = Wwwillian\JsonCrud\Models\Model::class;
 }

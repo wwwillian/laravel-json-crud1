@@ -1,8 +1,8 @@
 <?php
 
-namespace ConnectMalves\JsonCrud\Controllers;
+namespace Wwwillian\JsonCrud\Controllers;
 
-use ConnectMalves\JsonCrud\Controllers\BaseController;
+use Wwwillian\JsonCrud\Controllers\BaseController;
 use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
 
