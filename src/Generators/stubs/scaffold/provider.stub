@@ -1,0 +1,115 @@
+<?php
+
+/**
+ * This file is part of the Severino.
+ *
+ * Copyright (C) 2018 by Matheus.
+ *
+ * @author   Matheus Alves <connect.malves@gmail.com>
+ * @license  Severino
+ */
+namespace $MODULE_NAMESPACE$\$STUDLY_NAME$\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+/**
+ * Service Provider class for $STUDLY_NAME$ Module
+ *
+ * $CLASS$
+ *
+ * @package Severino
+ * @author  Matheus Alves  <connect.malves@gmail.com>
+ */
+class $CLASS$ extends ServiceProvider
+{
+    /**
+     * Indicates if loading of the provider is deferred.
+     *
+     * @var bool
+     */
+    protected $defer = false;
+
+    /**
+     * Boot the application events.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $this->registerTranslations();
+        $this->registerConfig();
+        $this->registerViews();
+    }
+
+    /**
+     * Register the service provider.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+
+    /**
+     * Register config.
+     *
+     * @return void
+     */
+    protected function registerConfig()
+    {
+        $this->publishes([
+            __DIR__ . '/../../$PATH_CONFIG$/module.php' => config_path('$LOWER_NAME$.php'),
+        ], 'config');
+        $this->mergeConfigFrom(
+            __DIR__ . '/../../$PATH_CONFIG$/module.php',
+            '$LOWER_NAME$'
+        );
+    }
+
+    /**
+     * Register views.
+     *
+     * @return void
+     */
+    public function registerViews()
+    {
+        $viewPath = resource_path('views/modules/$LOWER_NAME$');
+
+        $sourcePath = __DIR__ . '/../../$PATH_VIEWS$';
+
+        $this->publishes([
+            $sourcePath => $viewPath
+        ], 'views');
+
+        $this->loadViewsFrom(array_merge(array_map(function ($path) {
+            return $path . '/modules/$LOWER_NAME$';
+        }, \Config::get('view.paths')), [$sourcePath]), '$LOWER_NAME$');
+    }
+
+    /**
+     * Register translations.
+     *
+     * @return void
+     */
+    public function registerTranslations()
+    {
+        $langPath = resource_path('lang/modules/$LOWER_NAME$');
+
+        if (is_dir($langPath)) {
+            $this->loadTranslationsFrom($langPath, '$LOWER_NAME$');
+        } else {
+            $this->loadTranslationsFrom(__DIR__ . '/../../$PATH_LANG$', '$LOWER_NAME$');
+        }
+    }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
+    public function provides()
+    {
+        return [];
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "{{studlyModuleName}}",
+    "alias": "{{lowerModuleName}}",
+    "description": "{{studlyModuleName}} module for the Severino Project.",
+    "keywords": ["framework", "laravel", "malves", "severino", "{{lowerModuleName}}"],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        {{providerClass}}
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

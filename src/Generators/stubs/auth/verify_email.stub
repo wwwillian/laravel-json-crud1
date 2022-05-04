@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * This file is part of the {{projectName}}.
+ *
+ * Copyright (C) 2018 by {{authorName}.
+ *
+ * @author   {{authorName}} <{{authorEmail}}>
+ * @license  {projectName}
+ */
+namespace {{namespace}};
+
+use ConnectMalves\JsonCrud\Controllers\Auth\BaseVerificationController as Controller;
+use Illuminate\Foundation\Auth\VerifiesEmails;
+
+/**
+ * Email verification controller class for {{studlyModuleName}} Module
+ *
+ * {{className}}
+ *
+ * @package {{projectName}}
+ * @author  {{authorName}}  <{{authorEmail}}>
+ */
+class {{className}} extends Controller
+{
+    /*
+    |--------------------------------------------------------------------------
+    | Email Verification Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller is responsible for handling email verification for any
+    | user that recently registered with the application. Emails may also
+    | be resent if the user did not receive the original email message.
+    |
+    */
+
+    use VerifiesEmails;
+
+    /**
+     * Where to redirect users after verification.
+     *
+     * @var string
+     */
+    protected $redirectToRouteName = '{{routeName}}.dashboard';
+
+    /*
+     * The middleware of the controller
+     */
+    protected $authMiddleware = '{{authMiddleware}}';
+
+    /*
+     * The service class of the controllers
+     */
+    protected $serviceClass = \{{serviceClass}};
+}

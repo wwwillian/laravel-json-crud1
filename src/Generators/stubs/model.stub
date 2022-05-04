@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * This file is part of the {{projectName}}.
+ *
+ * Copyright (C) 2018 by {{authorName}}.
+ *
+ * @author   {{authorName}} <{{authorEmail}}>
+ * @license  {{projectName}}
+ */
+namespace {{namespace}};
+
+use ConnectMalves\JsonCrud\Models\BaseModel as Model;
+
+/**
+ * Model class for {{studlyModuleName}} Module
+ *
+ * {{className}}
+ *
+ * @package {{projectName}}
+ * @author  {{authorName}}  <{{authorEmail}}>
+ */
+class {{className}} extends Model
+{   
+    /**
+     * The json configuration filename.
+     *
+     * @var string
+     */
+    protected $json = "{{jsonFileName}}";
+}

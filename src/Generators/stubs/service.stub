@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * This file is part of the {{projectName}}.
+ *
+ * Copyright (C) 2018 by {{authorName}}.
+ *
+ * @author   {{authorName}} <{{authorEmail}}>
+ * @license  {{projectName}}
+ */
+namespace {{namespace}};
+
+use ConnectMalves\JsonCrud\Services\BaseService as Service;
+
+/**
+ * Service class for {{studlyModuleName}} Module
+ *
+ * {{className}}
+ *
+ * @package {{projectName}}
+ * @author  {{authorName}}  <{{authorEmail}}>
+ */
+class {{className}} extends Service 
+{
+    /**
+     * The absolute repository class.
+     *
+     * @var string
+     */
+    protected $repositoryClass = \{{repositoryClass}};
+}

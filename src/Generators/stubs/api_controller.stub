@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * This file is part of the Severino.
+ *
+ * Copyright (C) 2018 by {{authorName}}.
+ *
+ * @author   {{authorName}} <{{authorEmail}}>
+ * @license  {{projectName}}
+ */
+namespace {{namespace}};
+
+use ConnectMalves\JsonCrud\Controllers\BaseApiController as Controller;
+
+/**
+ * Api controller class for {{studlyModuleName}} Module
+ *
+ * {{className}}
+ *
+ * @package {{projectName}}
+ * @author  {{authorName}}  <{{authorEmail}}>
+ */
+class {{className}} extends Controller
+{
+    /**
+     * The service.
+     */
+    protected $serviceClass = \{{serviceClass}};
+}

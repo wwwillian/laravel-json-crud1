@@ -1,0 +1,26 @@
+{
+    "name": "{{studlyModuleName}}",
+    "description": "{{studlyModuleName}} module for the {{projectName}}.",
+    "keywords": ["framework", "laravel", "{{authorUser}}", "{{projectName}}", "{{lowerModuleName}}"],
+    "type": "module",
+    "authors": [
+        {
+            "name": "{{authorName}}",
+            "email": "{{authorEmail}}",
+            "role":  "{{authorRole}}"
+        }
+    ],
+    "active": 1,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "{{routeProviderClass}}"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "{{moduleNamespaceBackslash}}": "{{moduleNamespace}}"
+        }
+    }
+}

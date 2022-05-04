@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * This file is part of the {{projectName}}.
+ *
+ * Copyright (C) 2018 by {{authorName}}.
+ *
+ * @author   {{authorName}} <{{authorEmail}}>
+ * @license  {{projectName}}
+ */
+namespace {{namespace}};
+
+use ConnectMalves\JsonCrud\Repositories\Eloquent\BaseRepository as Repository;
+
+/**
+ * Repository class for {{studlyModuleName}} Module
+ *
+ * {{className}}
+ *
+ * @package {{projectName}}
+ * @author  {{authorName}}  <{{authorEmail}}>
+ */
+class {{className}} extends Repository
+{
+    /**
+     * The absolute model class.
+     *
+     * @var string
+     */
+    protected $modelClass = \{{modelClass}};
+}
