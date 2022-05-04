@@ -20,16 +20,16 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ConnectMalves\\JsonCrud\\Commands\\CommandsServiceProvider",
-                "ConnectMalves\\JsonCrud\\Repositories\\RepositoryServiceProvider",
-                "ConnectMalves\\JsonCrud\\Providers\\EventServiceProvider"
+                "Wwwillian\\JsonCrud\\Commands\\CommandsServiceProvider",
+                "Wwwillian\\JsonCrud\\Repositories\\RepositoryServiceProvider",
+                "Wwwillian\\JsonCrud\\Providers\\EventServiceProvider"
             ],
             "aliases": []
         }
     },
     "autoload": {
         "psr-4": {
-            "ConnectMalves\\JsonCrud\\": "src/"
+            "Wwwillian\\JsonCrud\\": "src/"
         }
     }
 }
